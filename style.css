@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; /*Alinhamento dos elementos*/
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px; /*Auto = preenchimento automatico*/
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /*TAM Fonte*/
+  line-height:  56px; /*TAM Linha*/
+  font-weight: normal; /*Fonte padrão normal*/
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p {
+ color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
